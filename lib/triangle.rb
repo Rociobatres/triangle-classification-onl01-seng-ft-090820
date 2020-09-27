@@ -38,7 +38,7 @@ class Triangle
   
   class TriangleError < StandardError
     def message
-      puts "Some don't look right."
+      "Some don't look right."
     end 
   end 
 end 
